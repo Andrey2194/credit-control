@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "credit-control-api", "credit-control-api\credit-control-api.csproj", "{E108B8EE-8FD9-4EFA-A2F2-8C0FB06EEA60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "credit-control-api.core", "credit-control-api.core\credit-control-api.core.csproj", "{74FA3D8D-2F94-47C6-9F65-16DED9777AB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "credit-control-api.infraestructure", "credit-control-api.infraestructure\credit-control-api.infraestructure.csproj", "{3FCA09DB-6F81-4D56-88A7-78ADE1AAF1FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E108B8EE-8FD9-4EFA-A2F2-8C0FB06EEA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E108B8EE-8FD9-4EFA-A2F2-8C0FB06EEA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E108B8EE-8FD9-4EFA-A2F2-8C0FB06EEA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E108B8EE-8FD9-4EFA-A2F2-8C0FB06EEA60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74FA3D8D-2F94-47C6-9F65-16DED9777AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74FA3D8D-2F94-47C6-9F65-16DED9777AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74FA3D8D-2F94-47C6-9F65-16DED9777AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74FA3D8D-2F94-47C6-9F65-16DED9777AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FCA09DB-6F81-4D56-88A7-78ADE1AAF1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FCA09DB-6F81-4D56-88A7-78ADE1AAF1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FCA09DB-6F81-4D56-88A7-78ADE1AAF1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FCA09DB-6F81-4D56-88A7-78ADE1AAF1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18CD8606-FEA3-4DBD-8503-981C860F4F44}
+	EndGlobalSection
+EndGlobal
