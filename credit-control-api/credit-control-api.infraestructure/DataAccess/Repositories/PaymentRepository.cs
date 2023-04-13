@@ -44,17 +44,17 @@ namespace credit_control_api.infraestructure.DataAccess.Repositories
 
         public List<Payment> GetAll()
         {
-            return _context.Payment.ToList();
+            return _context.Payment.AsNoTracking().ToList();
         }
 
         public Payment GetById(Guid Id)
         {
-            return _context.Payment.SingleOrDefault(x => x.Id == Id);
+            return _context.Payment.AsNoTracking().SingleOrDefault(x => x.Id == Id);
         }
 
         public bool Update(Payment record)
         {
-            Payment finder = _context.Payment.SingleOrDefault(x => x.Id == record.Id);
+            Payment finder = _context.Payment.AsNoTracking().SingleOrDefault(x => x.Id == record.Id);
 
             if(finder != null){
                 _context.Update(record);

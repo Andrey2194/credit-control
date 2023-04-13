@@ -56,7 +56,9 @@ namespace credit_control_api.infraestructure.DataAccess.Repositories
 
         public List<Debt> GetAll()
         {
-            return _context.Debt.ToList();
+            return _context.Debt.Include(x => x.Debtor)
+                .ThenInclude(x => x.Debts)
+                .ToList();
         }
 
         public Debt GetById(Guid Id)

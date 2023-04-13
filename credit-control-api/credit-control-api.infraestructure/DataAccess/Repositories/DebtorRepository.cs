@@ -45,7 +45,7 @@ namespace credit_control_api.infraestructure.DataAccess.Repositories
 
         public List<Debtor> GetAll()
         {
-            return _context.Debtor.AsNoTracking().ToList();
+            return _context.Debtor.ToList();
         }
 
         public Debtor GetById(Guid Id)

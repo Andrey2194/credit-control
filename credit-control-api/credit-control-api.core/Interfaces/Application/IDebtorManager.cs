@@ -6,8 +6,8 @@ namespace credit_control_api.core.Interfaces.Application
     {
         //CRUD
         Guid Create(Debtor record);
-        Debt GetById(Guid Id);
-        List<Debt> GetAll();
+        Debtor GetById(Guid Id);
+        List<Debtor> GetAll();
         bool Update(Debtor record);
         bool Delete(Guid Id);
     }
