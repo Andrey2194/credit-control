@@ -1,0 +1,37 @@
+<div class="sidebar-container">
+  <div class="sidebar-container__header">
+    <div class="sidebar-container__header__logo">
+      <fa-icon [icon]="icons.faWallet"></fa-icon>
+    </div>
+    <div class="sidebar-container__header__brand">Credit Control</div>
+  </div>
+  <div class="sidebar-container__list">
+    <div class="sidebar-container__list__item">
+      <div class="sidebar-container__list__item__img">
+        <fa-icon [icon]="icons.faHouse"></fa-icon>
+      </div>
+      <div class="sidebar-container__list__item__title">Inicio</div>
+    </div>
+    <div class="sidebar-container__list__item">
+      <div class="sidebar-container__list__item_img">
+        <fa-icon [icon]="icons.faReceipt"></fa-icon>
+      </div>
+      <div class="sidebar-container__list__item__title">Debts</div>
+    </div>
+    <div class="sidebar-container__list__item">
+      <div class="sidebar-container__list__item_img">
+        <fa-icon [icon]="icons.faPerson"></fa-icon>
+      </div>
+      <div class="sidebar-container__list__item__title" routerLink="debtor">
+        Debtors
+      </div>
+    </div>
+  </div>
+  <div class="sidebar-container__footer">
+    <div class="sidebar-container__footer__logo"></div>
+    <div class="sidebar-container__footer__data">
+      <div class="sidebar-container__footer__data__title">Credit App</div>
+      <div class="sidebar-container__footer__data__subtitle">2023</div>
+    </div>
+  </div>
+</div>
